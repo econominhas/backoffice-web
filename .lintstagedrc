@@ -1,5 +1,7 @@
 {
 	"*.{js,jsx,ts,tsx}": [
-		"pnpm format && pnpm type-check && pnpm build"
+		"bash -c \"pnpm format\"",
+		"bash -c \"pnpm type-check\"",
+		"bash -c \"pnpm build\""
 	]
 }
