@@ -2,6 +2,7 @@ import "./globals.css";
 
 import type { Metadata } from "next";
 import { Roboto as FontSans } from "next/font/google";
+import { Toaster } from "sonner";
 
 import { cn } from "@/lib/utils";
 
@@ -30,6 +31,7 @@ const RootLayout: FC<Props> = ({ children }) => {
 				)}
 			>
 				{children}
+				<Toaster />
 			</body>
 		</html>
 	);
