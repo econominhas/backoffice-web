@@ -6,14 +6,7 @@ export const Logo: FC = () => (
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>
-		<rect width="140" height="122" fill="#00000000" />
 		<g id="Login">
-			<rect
-				width="400"
-				height="770"
-				transform="translate(-130 -36)"
-				fill="#00000000"
-			/>
 			<g id="Group 39">
 				<g id="Group 37">
 					<g id="Group">
