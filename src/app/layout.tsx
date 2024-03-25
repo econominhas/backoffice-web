@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Roboto as FontSans } from "next/font/google";
 import { Toaster } from "sonner";
 
+import { NavBar } from "@/components/NavBar";
 import { cn } from "@/lib/utils";
 
 export const fontSans = FontSans({
@@ -30,6 +31,9 @@ const RootLayout: FC<Props> = ({ children }) => {
 					fontSans.variable,
 				)}
 			>
+				<div className="relative">
+					<NavBar />
+				</div>
 				{children}
 				<Toaster />
 			</body>
